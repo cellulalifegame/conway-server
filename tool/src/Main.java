@@ -22,7 +22,7 @@ public class Main {
      * @param args
      */
     public static void main(String[] args) {
-        int threadCount = Runtime.getRuntime().availableProcessors() / 3;
+        int threadCount = Runtime.getRuntime().availableProcessors() / 4;
         EvolutionUtil evolutionUtil = new EvolutionUtil();
         Random random = new Random();
         String[] cellNumStrSet = CellData.cellData.split(",");
